@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA5C8046224552F40051C5B4 /* SearchArtistsDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C8045224552F40051C5B4 /* SearchArtistsDecode.swift */; };
+		FA8838EF2242ED9F0085E4FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8838EE2242ED9F0085E4FD /* AppDelegate.swift */; };
+		FA8838F12242ED9F0085E4FD /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8838F02242ED9F0085E4FD /* AuthenticationViewController.swift */; };
+		FA8838F72242EDA00085E4FD /* FeelTheBeatInside.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA8838F52242EDA00085E4FD /* FeelTheBeatInside.xcdatamodeld */; };
+		FA8838F92242EDA00085E4FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8838F82242EDA00085E4FD /* Assets.xcassets */; };
+		FA8838FC2242EDA00085E4FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8838FA2242EDA00085E4FD /* LaunchScreen.storyboard */; };
+		FA8839042242EDBB0085E4FD /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8839032242EDBB0085E4FD /* SpotifyiOS.framework */; };
+		FA8839112243CCC00085E4FD /* HomePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8839102243CCC00085E4FD /* HomePlayerViewController.swift */; };
+		FA883913224412230085E4FD /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA883912224412230085E4FD /* NetworkOperation.swift */; };
+		FA883916224412890085E4FD /* AccessControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA883915224412890085E4FD /* AccessControlManager.swift */; };
+		FA88391822441F3E0085E4FD /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA88391722441F3E0085E4FD /* SearchResultViewController.swift */; };
+		FAA876DD22483D2800EEF488 /* SearchTracksDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA876DC22483D2800EEF488 /* SearchTracksDecode.swift */; };
+		FAA876DF2248604D00EEF488 /* TrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA876DE2248604D00EEF488 /* TrackTableViewCell.swift */; };
+		FAA876E122489D5D00EEF488 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA876E022489D5D00EEF488 /* Extensions.swift */; };
+		FAA876E322491BCF00EEF488 /* TrackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA876E222491BCF00EEF488 /* TrackViewModel.swift */; };
+		FAA876E722498C3A00EEF488 /* TrackProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA876E622498C3A00EEF488 /* TrackProgressView.swift */; };
+		FAA876EB224A610A00EEF488 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA876EA224A610A00EEF488 /* Utils.swift */; };
+		FAA876ED224A646800EEF488 /* PlayerControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA876EC224A646800EEF488 /* PlayerControll.swift */; };
+		FAA876EF224A8DCC00EEF488 /* SearchArtistsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA876EE224A8DCC00EEF488 /* SearchArtistsButton.swift */; };
+		FAC65018224570800079A670 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC65017224570800079A670 /* ArtistTableViewCell.swift */; };
+		FAC6501A2245E1AF0079A670 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC650192245E1AF0079A670 /* SpinnerView.swift */; };
+		FAC65021224704E70079A670 /* ArtistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC65020224704E70079A670 /* ArtistViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA5C8045224552F40051C5B4 /* SearchArtistsDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchArtistsDecode.swift; sourceTree = "<group>"; };
+		FA8838EB2242ED9F0085E4FD /* FeelTheBeatInside.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeelTheBeatInside.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8838EE2242ED9F0085E4FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA8838F02242ED9F0085E4FD /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		FA8838F62242EDA00085E4FD /* FeelTheBeatInside.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FeelTheBeatInside.xcdatamodel; sourceTree = "<group>"; };
+		FA8838F82242EDA00085E4FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA8838FB2242EDA00085E4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA8838FD2242EDA00085E4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8839032242EDBB0085E4FD /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
+		FA8839052242EE4C0085E4FD /* FeelTheBeatInside-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FeelTheBeatInside-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA8839102243CCC00085E4FD /* HomePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePlayerViewController.swift; sourceTree = "<group>"; };
+		FA883912224412230085E4FD /* NetworkOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
+		FA883915224412890085E4FD /* AccessControlManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessControlManager.swift; sourceTree = "<group>"; };
+		FA88391722441F3E0085E4FD /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		FAA876DC22483D2800EEF488 /* SearchTracksDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTracksDecode.swift; sourceTree = "<group>"; };
+		FAA876DE2248604D00EEF488 /* TrackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTableViewCell.swift; sourceTree = "<group>"; };
+		FAA876E022489D5D00EEF488 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FAA876E222491BCF00EEF488 /* TrackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewModel.swift; sourceTree = "<group>"; };
+		FAA876E622498C3A00EEF488 /* TrackProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackProgressView.swift; sourceTree = "<group>"; };
+		FAA876EA224A610A00EEF488 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		FAA876EC224A646800EEF488 /* PlayerControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControll.swift; sourceTree = "<group>"; };
+		FAA876EE224A8DCC00EEF488 /* SearchArtistsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchArtistsButton.swift; sourceTree = "<group>"; };
+		FAC65017224570800079A670 /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
+		FAC650192245E1AF0079A670 /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		FAC65020224704E70079A670 /* ArtistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA8838E82242ED9F0085E4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8839042242EDBB0085E4FD /* SpotifyiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA5C8044224552CC0051C5B4 /* CodableModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA5C8045224552F40051C5B4 /* SearchArtistsDecode.swift */,
+				FAA876DC22483D2800EEF488 /* SearchTracksDecode.swift */,
+			);
+			path = CodableModels;
+			sourceTree = "<group>";
+		};
+		FA8838E22242ED9F0085E4FD = {
+			isa = PBXGroup;
+			children = (
+				FA8838ED2242ED9F0085E4FD /* FeelTheBeatInside */,
+				FA8838EC2242ED9F0085E4FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA8838EC2242ED9F0085E4FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA8838EB2242ED9F0085E4FD /* FeelTheBeatInside.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA8838ED2242ED9F0085E4FD /* FeelTheBeatInside */ = {
+			isa = PBXGroup;
+			children = (
+				FA8838EE2242ED9F0085E4FD /* AppDelegate.swift */,
+				FA883914224412550085E4FD /* Utils */,
+				FA88390D2243C04A0085E4FD /* Controllers */,
+				FA88390C2243C03C0085E4FD /* Views */,
+				FA88390922436EDA0085E4FD /* Operations */,
+				FA8838F82242EDA00085E4FD /* Assets.xcassets */,
+				FA8838FA2242EDA00085E4FD /* LaunchScreen.storyboard */,
+				FA8838FD2242EDA00085E4FD /* Info.plist */,
+				FAC6501D2245F23D0079A670 /* Models */,
+				FA8838F52242EDA00085E4FD /* FeelTheBeatInside.xcdatamodeld */,
+				FA8839032242EDBB0085E4FD /* SpotifyiOS.framework */,
+				FA8839052242EE4C0085E4FD /* FeelTheBeatInside-Bridging-Header.h */,
+			);
+			path = FeelTheBeatInside;
+			sourceTree = "<group>";
+		};
+		FA88390922436EDA0085E4FD /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				FA5C8044224552CC0051C5B4 /* CodableModels */,
+				FA883912224412230085E4FD /* NetworkOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		FA88390C2243C03C0085E4FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAC650192245E1AF0079A670 /* SpinnerView.swift */,
+				FAA876E622498C3A00EEF488 /* TrackProgressView.swift */,
+				FAA876EE224A8DCC00EEF488 /* SearchArtistsButton.swift */,
+				FAC65017224570800079A670 /* ArtistTableViewCell.swift */,
+				FAA876DE2248604D00EEF488 /* TrackTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA88390D2243C04A0085E4FD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA8838F02242ED9F0085E4FD /* AuthenticationViewController.swift */,
+				FA8839102243CCC00085E4FD /* HomePlayerViewController.swift */,
+				FA88391722441F3E0085E4FD /* SearchResultViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA883914224412550085E4FD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FA883915224412890085E4FD /* AccessControlManager.swift */,
+				FAA876EA224A610A00EEF488 /* Utils.swift */,
+				FAA876E022489D5D00EEF488 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FAC6501D2245F23D0079A670 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAC65020224704E70079A670 /* ArtistViewModel.swift */,
+				FAA876EC224A646800EEF488 /* PlayerControll.swift */,
+				FAA876E222491BCF00EEF488 /* TrackViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA8838EA2242ED9F0085E4FD /* FeelTheBeatInside */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8839002242EDA00085E4FD /* Build configuration list for PBXNativeTarget "FeelTheBeatInside" */;
+			buildPhases = (
+				FA8838E72242ED9F0085E4FD /* Sources */,
+				FA8838E82242ED9F0085E4FD /* Frameworks */,
+				FA8838E92242ED9F0085E4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeelTheBeatInside;
+			productName = FeelTheBeatInside;
+			productReference = FA8838EB2242ED9F0085E4FD /* FeelTheBeatInside.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA8838E32242ED9F0085E4FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Pedro Emanuel";
+				TargetAttributes = {
+					FA8838EA2242ED9F0085E4FD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FA8838E62242ED9F0085E4FD /* Build configuration list for PBXProject "FeelTheBeatInside" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA8838E22242ED9F0085E4FD;
+			productRefGroup = FA8838EC2242ED9F0085E4FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA8838EA2242ED9F0085E4FD /* FeelTheBeatInside */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA8838E92242ED9F0085E4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8838FC2242EDA00085E4FD /* LaunchScreen.storyboard in Resources */,
+				FA8838F92242EDA00085E4FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA8838E72242ED9F0085E4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA876E322491BCF00EEF488 /* TrackViewModel.swift in Sources */,
+				FA8838F72242EDA00085E4FD /* FeelTheBeatInside.xcdatamodeld in Sources */,
+				FA8838F12242ED9F0085E4FD /* AuthenticationViewController.swift in Sources */,
+				FAC65018224570800079A670 /* ArtistTableViewCell.swift in Sources */,
+				FAA876EF224A8DCC00EEF488 /* SearchArtistsButton.swift in Sources */,
+				FAA876E722498C3A00EEF488 /* TrackProgressView.swift in Sources */,
+				FAC65021224704E70079A670 /* ArtistViewModel.swift in Sources */,
+				FA8839112243CCC00085E4FD /* HomePlayerViewController.swift in Sources */,
+				FAA876ED224A646800EEF488 /* PlayerControll.swift in Sources */,
+				FA5C8046224552F40051C5B4 /* SearchArtistsDecode.swift in Sources */,
+				FA883916224412890085E4FD /* AccessControlManager.swift in Sources */,
+				FA883913224412230085E4FD /* NetworkOperation.swift in Sources */,
+				FAA876EB224A610A00EEF488 /* Utils.swift in Sources */,
+				FAA876DD22483D2800EEF488 /* SearchTracksDecode.swift in Sources */,
+				FAA876E122489D5D00EEF488 /* Extensions.swift in Sources */,
+				FA88391822441F3E0085E4FD /* SearchResultViewController.swift in Sources */,
+				FAC6501A2245E1AF0079A670 /* SpinnerView.swift in Sources */,
+				FA8838EF2242ED9F0085E4FD /* AppDelegate.swift in Sources */,
+				FAA876DF2248604D00EEF488 /* TrackTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA8838FA2242EDA00085E4FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8838FB2242EDA00085E4FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA8838FE2242EDA00085E4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA8838FF2242EDA00085E4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA8839012242EDA00085E4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WEP9UKL7GT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FeelTheBeatInside",
+				);
+				INFOPLIST_FILE = FeelTheBeatInside/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = pedro.emanuel.FeelTheBeatInside;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FeelTheBeatInside/FeelTheBeatInside-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FA8839022242EDA00085E4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WEP9UKL7GT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FeelTheBeatInside",
+				);
+				INFOPLIST_FILE = FeelTheBeatInside/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = pedro.emanuel.FeelTheBeatInside;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FeelTheBeatInside/FeelTheBeatInside-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA8838E62242ED9F0085E4FD /* Build configuration list for PBXProject "FeelTheBeatInside" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8838FE2242EDA00085E4FD /* Debug */,
+				FA8838FF2242EDA00085E4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8839002242EDA00085E4FD /* Build configuration list for PBXNativeTarget "FeelTheBeatInside" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8839012242EDA00085E4FD /* Debug */,
+				FA8839022242EDA00085E4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA8838F52242EDA00085E4FD /* FeelTheBeatInside.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA8838F62242EDA00085E4FD /* FeelTheBeatInside.xcdatamodel */,
+			);
+			currentVersion = FA8838F62242EDA00085E4FD /* FeelTheBeatInside.xcdatamodel */;
+			path = FeelTheBeatInside.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA8838E32242ED9F0085E4FD /* Project object */;
+}
